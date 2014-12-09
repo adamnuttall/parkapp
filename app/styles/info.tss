@@ -1,0 +1,89 @@
+"#container": {
+  height: "100%",
+  width: "100%",
+  top: 0,
+  backgroundImage: "images/bg.png"
+}
+
+"#header": {
+  height: "40%",
+  width: "100%",
+  top: 0
+}
+
+  "#backbutton": {
+    height: "40",
+    width: "40",
+    left: "20",
+    top: "20dp",
+    zIndex: "2"
+  }
+
+  "#parkimage": {
+    height: "100%",
+    width: "100%",
+    zIndex: "1"
+  }
+
+"#menu": {
+  right: 10,
+  bottom: 10,
+  width: 60,
+  height: "33%"
+}
+  
+"#content": {
+  top: "45%",
+  color: "white",
+  height: "auto"
+}
+
+  "#title": {
+    top: 0,
+    left: 15,
+    color: "white"
+  }
+  
+  "#intro": {
+    top: 40,
+    width: "70%",
+    left: 15,
+    color: "white"
+  }
+  
+  "#parkdetails": {
+    top: 235,
+    height: "auto",
+    width: "100%",
+    left: 0,
+  }
+  
+    "#addresstitle": {
+      left: 15,
+      top: 0,
+      color: "white"
+    }
+
+    "#address": {
+      top: 30,
+      left: 15,
+      color: "white"
+    }
+    
+    "#contacttitle": {
+      left: 15,
+      top: 230,
+      color: "white"
+    }
+
+    "#daytime": {
+      top: 250,
+      left: 15,
+      color: "white"
+    }
+
+    "#evening": {
+      top: 270,
+      left: 15,
+      color: "white"
+    }

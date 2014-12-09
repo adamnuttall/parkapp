@@ -1,0 +1,64 @@
+"#container": {
+  height: "100%",
+  width: "100%",
+  top: 0,
+  backgroundColor: "CFF09E"
+}
+
+"#header": {
+  height: "20%",
+  width: "100%",
+  top: 0
+}
+
+  "#parkimage": {
+    height: "100%",
+    width: "100%"
+  }
+  
+"#intro": {
+  height: "20%",
+  color: "fff"
+}
+
+  "Label": {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "fff"
+  }
+  
+  "#welcome": {
+    top: 0,
+    height: "auto",
+    width: "70%",
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  }
+  
+  "signin": {
+    top: 40,
+    height: "auto",
+    width: "70%",
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  }
+  
+"#buttons": {
+  height: "20%",
+  width: "100%",
+  top: "60%"
+}
+
+  "#fbButton": {
+    top: 0
+  }
+
+  "#google": {
+    height: "45%",
+    width: "80%",
+    left: "10%",
+    top: "55%"
+  }
+  
+"#nav": {
+  bottom: "10%",
+  height: "10%"
+}

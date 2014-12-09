@@ -1,0 +1,18 @@
+<Alloy>
+	<View id="container">
+	  <View id="header">
+      <ImageView id="parkimage" backgroundColor="CFF09E" />
+    </View>
+    <View id="intro">
+      <Label id="welcome">Welcome to My Park from Vale Holiday Parks.</Label> 
+      <Label id="signin">To get the most out of this app, please sign in.</Label>
+    </View>
+    <View id="buttons">
+      <LoginButton id="fbButton" ns="Alloy.Globals.Facebook"/>
+      <ImageView id="google" onClick="clickGoogle" backgroundColor="red" />
+    </View>
+    <View id="nav">
+      <Label onClick="clickSkip">Skip this step</Label>
+    </View>
+	</View>
+</Alloy>

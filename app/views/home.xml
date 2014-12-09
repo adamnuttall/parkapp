@@ -1,0 +1,64 @@
+<Alloy>
+  <View id="container">
+    <View id="topContainer">
+      <View id="header">
+        <ImageView id="parkimage" image="images/home-banner.png" />
+        <View id="headerContent" layout="vertical">
+          <View id="userContent" layout="horizontal">
+            <ImageView id="userimage" image="images/nath.png" />
+            <Label id="userLabel" text="HI NATHAN" />
+          </View>
+          <View id="parkContent">
+            <Label id="parkLabel" text="Welcome to \nGrondre Holiday Park" />
+          </View>
+        </View>
+      </View>
+      <View id="parkupdates">
+        <View id="sliderContainer" layout="vertical">
+          <View id="titleContainer" layout="horizontal">
+            <ImageView id="sliderIcon" image="images/icon-alert.png" />
+            <Label id="parkupdatestitle">PARK UPDATES</Label>
+          </View>
+          <ScrollableView showPagingControl="true">
+                <View id="update1" layout="vertical">
+                 <Label id="update1content">The shower block will be closed for maintenance between 3pm and 4pm this afternoon. We are sorry for the inconvenience.</Label>
+                </View>
+                <View id="update2" layout="vertical">
+                 <Label id="update2content">This afternoon's mountain bike ride will leave reception at 3pm.</Label>
+                 </View>
+            </ScrollableView>
+          </View>
+      </View>
+    </View>
+    <View id="menu">
+      <View id="topmenu" layout="horizontal">
+        <View id="parkmapcontainer" layout="vertical">
+          <ImageView id="parkmapimage" image="images/icon-park_map.png" />
+          <Label id="parkmaptitle">PARK MAP</Label>
+        </View>
+        <View id="customerservicecontainer" layout="vertical" onClick="clickCustomerService">
+          <ImageView id="customerserviceimage" image="images/icon-customer_service.png" />
+          <Label id="customerservicetitle">CUSTOMER SERVICE</Label>
+        </View>
+      </View>
+      <View id="bottommenu" layout="horizontal">
+          <View id="infocontainer" layout="vertical" onClick="clickInfo" >
+            <ImageView id="infoimage" image="images/icon-info.png"/>
+            <Label id="infotitle">INFO</Label>
+          </View>
+          <View id="socialcontainer" layout="vertical" onClick="clickSocial" >
+            <ImageView id="socialimage" image="images/icon-twitter.png"/>
+            <Label id="socialtitle">SOCIAL</Label>
+          </View>
+          <View id="eventscontainer" layout="vertical" onClick="clickEvents" >
+            <ImageView id="eventsimage" image="images/icon-calendar.png"/>
+            <Label id="eventstitle">EVENTS</Label>
+          </View>
+          <View id="offerscontainer" layout="vertical" onClick="clickOffers" >
+            <ImageView id="offersimage" image="images/icon-offers.png"/>
+            <Label id="offerstitle">OFFERS</Label>
+          </View>
+      </View>
+    </View>
+  </View>
+</Alloy>

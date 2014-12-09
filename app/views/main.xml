@@ -1,0 +1,16 @@
+<Alloy>
+  <View id="container">
+    <Label>Hello world</Label>
+    <!-- <View class="header">
+      <View width="50dp" height="40dp" left="0" bottom="0" onClick="toggleMenu">
+        <Button platform="ios" id="homeButton" class="leftButton" />
+        <ImageView platform="android" id="homeButton" class="leftButton" />
+      </View>
+      <Label id="headerTitle" />
+      <View width="50dp" height="40dp" right="0" bottom="0" onClick="home">
+        <Button platform="ios" id="close" />
+        <ImageView platform="android" id="close" />
+      </View>
+    </View> -->
+  </View>
+</Alloy>

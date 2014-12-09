@@ -1,0 +1,26 @@
+"#container": {
+  height: "100%",
+  width: "100%",
+  top: 0,
+  backgroundImage: "images/bg.png"
+}
+
+"#header": {
+  height: "40%",
+  width: "100%",
+  top: 0
+}
+
+  "#backbutton": {
+    height: "40",
+    width: "40",
+    left: "20",
+    top: "20",
+    zIndex: "2"
+  }
+
+  "#parkimage": {
+    height: "100%",
+    width: "100%",
+    zIndex: "1"
+  }

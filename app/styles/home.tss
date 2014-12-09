@@ -1,0 +1,279 @@
+"#container": {
+  height: "100%",
+  width: "100%",
+  top: 0,
+  backgroundImage: "images/bg.png"
+}
+
+"#topContainer": {
+  layout: "vertical"
+}
+
+"#header": {
+  height: "44%",
+  width: "100%",
+  top: 0,
+}
+
+  "#headerContent": {
+    bottom: 0,
+    height: "45%"
+  }
+  
+    "#userContent": {
+      top: 0,
+      left: 0,
+      height: "33%",
+      width: "50%"
+    }
+    
+      "#userimage": {
+        height: "30dp",
+        left: "20dp",
+        top: "5dp",
+        width: "30dp"
+      }
+      
+      "#userLabel": {
+        top: "30%",
+        left: "6dp",
+        color: "#fff",
+        font: {
+          fontFamily: 'AktivGrotesk-Bold',
+          fontWeight: "Bold",
+          fontSize: "14sp",
+        }
+      }
+    
+    "#parkContent": {
+      bottom: 0,
+      left: 0,
+      height: "67%",
+      textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
+    }
+  
+      "#parkimage": {
+        height: "100%",
+        width: "100%"
+      }
+      
+      "#parkLabel": {
+        color: "#fff",
+        left: "20dp",
+        bottom: "18dp",
+        font: {
+          fontSize: "30sp",
+          fontFamily: 'AktivGrotesk-Light',
+        }
+      }
+  
+"#parkupdates": {
+  height: "30%",
+}
+
+  "#titleContainer": {
+    top: 0,
+    left: 0,
+    height: "58dp",
+    width: "100%"
+  }
+  
+    "#sliderIcon": {
+      height: "18dp",
+      left: "20dp",
+      top: "30dp",
+      width: "18dp"
+    }
+
+  "#parkupdatestitle": {
+    color: "white",
+    font: {
+      fontFamily: 'AktivGrotesk-Bold',
+      fontWeight: "Bold",
+      fontSize: "13sp"
+    },
+    left: "6dp",
+    top: "33dp",
+  }
+  
+  "#update1": {
+    color: "white",
+    top: 0,
+    left: 0,
+    width: "90%"
+  }
+  
+    "#update1content": {
+      color: "white",
+      font: {
+        fontFamily: "AktivGrotesk-Light",
+        fontSize: "18sp"
+      },
+      left: "20dp"
+    }
+  
+  "#update2": {
+    color: "white",
+    top: 0,
+    left: 0,
+    width: "90%"
+  }
+
+    "#update2content": {
+      color: "white",
+      font: {
+        fontFamily: "AktivGrotesk-Light",
+        fontSize: "18sp"
+      },
+      left: "20dp"
+    }
+
+"#menu": {
+  height: "26%",
+  bottom: "0"
+}
+
+  "#topmenu": {
+    height: "55%",
+    top: "0",
+    borderWidth: 1,
+    borderColor: '97af59'
+  }
+  
+    "#parkmapcontainer": {
+      width: "50%",
+      height: Titanium.UI.FILL,
+      borderWidth: 1,
+      borderColor: '97af59'
+    }
+    
+      "#parkmapimage": {
+        width: "40dp",
+        height: "40dp",
+        top: "10dp"
+      }
+      
+      "#parkmaptitle": {
+        color: "white",
+        font: {
+          fontFamily: "AktivGrotesk-Bold",
+          fontSize: "14sp"
+        },
+        top: "4dp"
+      }
+    
+    "#customerservicecontainer": {
+      width: "49%",
+      height: "100%",
+      borderWidth: 1,
+      borderColor: '97af59'
+    }
+    
+      "#customerserviceimage": {
+        width: "40dp",
+        height: "30dp",
+        top: "20dp"
+      }
+      
+      "#customerservicetitle": {
+        color: "white",
+        font: {
+          fontFamily: "AktivGrotesk-Bold",
+          fontSize: "14sp"
+        },
+        top: "4dp"
+      }
+
+  "#bottommenu": {
+    height: "45%",
+    bottom: "0",
+    width: Ti.UI.FILL
+  }
+
+    "#infocontainer": {
+      width: "25%",
+      height: "100%",
+      borderWidth: 1,
+      borderColor: '97af59'
+    }
+    
+      "#infoimage": {
+        width: "30dp",
+        height: "30dp",
+        top: "14dp"
+      }
+      
+      "#infotitle": {
+        color: "white",
+        font: {
+          fontFamily: "AktivGrotesk-Bold",
+          fontSize: "11sp"
+        },
+        top: "6dp"
+      }
+    
+    "#socialcontainer": {
+      width: "25%",
+      height: "100%",
+      borderWidth: 1,
+      borderColor: '97af59'
+    }
+    
+      "#socialimage": {
+        width: "30dp",
+        height: "30dp",
+        top: "14dp"
+      }
+      
+      "#socialtitle": {
+        color: "white",
+        font: {
+          fontFamily: "AktivGrotesk-Bold",
+          fontSize: "11sp"
+        },
+        top: "6dp"
+      }
+    
+    "#eventscontainer": {
+      width: "25%",
+      height: "100%",
+      borderWidth: 1,
+      borderColor: '97af59'
+    }
+    
+      "#eventsimage": {
+        width: "30dp",
+        height: "30dp",
+        top: "14dp"
+      }
+      
+      "#eventstitle": {
+        color: "white",
+        font: {
+          fontFamily: "AktivGrotesk-Bold",
+          fontSize: "11sp"
+        },
+        top: "6dp"
+      }
+    
+    "#offerscontainer": {
+      width: "24%",
+      height: "100%",
+      borderWidth: 1,
+      borderColor: '97af59'
+    }
+    
+      "#offersimage": {
+        width: "40dp",
+        height: "30dp",
+        top: "14dp"
+      }
+      
+      "#offerstitle": {
+        color: "white",
+        font: {
+          fontFamily: "AktivGrotesk-Bold",
+          fontSize: "11sp"
+        },
+        top: "6dp"
+      }

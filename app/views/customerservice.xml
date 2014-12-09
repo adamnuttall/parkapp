@@ -1,0 +1,8 @@
+<Alloy>
+	<View id="container">
+	  <View id="header">
+      <ImageView id="backbutton" backgroundColor="A0D4A4" onClick="close" />
+    </View>
+    <Button id="contactus" onClick="clickContact" />
+	</View>
+</Alloy>

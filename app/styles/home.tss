@@ -159,7 +159,7 @@
           fontFamily: "AktivGrotesk-Bold",
           fontSize: "14sp"
         },
-        top: "4dp"
+        top: "8dp"
       }
     
     "#customerservicecontainer": {
@@ -181,7 +181,7 @@
           fontFamily: "AktivGrotesk-Bold",
           fontSize: "14sp"
         },
-        top: "4dp"
+        top: "8dp"
       }
 
   "#bottommenu": {

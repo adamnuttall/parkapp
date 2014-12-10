@@ -1,5 +1,10 @@
 var application = require('application');
 
+function clickMap(e) { 
+  var mapView = application.loadController('map');
+  application.showContent(mapView.getView());
+}
+
 function clickCustomerService(e) { 
   var customerserviceView = application.loadController('customerservice');
   application.showContent(customerserviceView.getView());

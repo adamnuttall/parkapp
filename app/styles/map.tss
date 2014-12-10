@@ -52,13 +52,7 @@
       }
     }
     
-".divider": {
-  height: "1dp",
-  backgroundColor: "#C6D18E",
-  width: "100%"
-}
-    
-".offerContainer": {
-  height: "100dp",
+"#mapContainer": {
+  height: "89%",
   width: "100%"
 }

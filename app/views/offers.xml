@@ -1,8 +1,44 @@
 <Alloy>
-  <View id="container">
-    <View id="header">
-      <ImageView id="backbutton" backgroundColor="A0D4A4" onClick="close" />
-      <ImageView id="parkimage" backgroundColor="CFF09E" />
+  <View id="container" layout="vertical">
+    <View id="topBarContainer" layout="horizontal">
+        <View id="backButtonContainer">
+          <ImageView id="backbutton" image="images/icon-menu.png" onClick="close" />
+        </View>
+        <View id="topBarContentContainer" layout="vertical">
+          <Label id="topBarTitle">OFFERS</Label>
+          <Label id="topBarParkTitle">GRONDRE HOLIDAY PARK</Label>
+        </View>
     </View>
+    <ScrollView id="scrollContainer" showVerticalScrollIndicator="true" layout="vertical">
+      <View class="offerListContainer" layout="vertical">
+        <View class="offerContainer" layout="horizontal">
+          
+        </View>
+        <View class="divider"/>
+        <View class="offerContainer" layout="horizontal">
+          
+        </View>
+        <View class="divider"/>
+        <View class="offerContainer" layout="horizontal">
+          
+        </View>
+        <View class="divider"/>
+        <View class="offerContainer" layout="horizontal">
+          
+        </View>
+        <View class="divider"/>
+        <View class="offerContainer" layout="horizontal">
+          
+        </View>
+        <View class="divider"/>
+        <View class="offerContainer" layout="horizontal">
+          
+        </View>
+        <View class="divider"/>
+        <View class="offerContainer" layout="horizontal">
+          
+        </View>
+      </View>
+    </ScrollView>
   </View>
 </Alloy>

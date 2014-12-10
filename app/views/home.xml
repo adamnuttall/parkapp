@@ -32,7 +32,7 @@
     </View>
     <View id="menu">
       <View id="topmenu" layout="horizontal">
-        <View id="parkmapcontainer" layout="vertical">
+        <View id="parkmapcontainer" layout="vertical" onClick="clickMap">
           <ImageView id="parkmapimage" image="images/icon-park_map.png" />
           <Label id="parkmaptitle">PARK MAP</Label>
         </View>

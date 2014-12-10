@@ -1,0 +1,14 @@
+<Alloy>
+  <View id="container" layout="vertical">
+    <View id="topBarContainer" layout="horizontal">
+        <View id="backButtonContainer">
+          <ImageView id="backbutton" image="images/icon-menu.png" onClick="close" />
+        </View>
+        <View id="topBarContentContainer" layout="vertical">
+          <Label id="topBarTitle">PARK INFO</Label>
+          <Label id="topBarParkTitle">GRONDRE HOLIDAY PARK</Label>
+        </View>
+    </View>
+    <WebView id="mapContainer" url="https://www.google.co.uk/maps/place/Grondre+Caravan+Park/@51.828059,-4.742857,14z/data=!4m2!3m1!1s0x0:0xddfa9906ad0233dd?sa=X&ei=-VyIVISyLMGwUb66g_gO&ved=0CIEBEPwSMAo" />
+  </View>
+</Alloy>

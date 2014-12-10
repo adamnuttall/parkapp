@@ -1,25 +1,46 @@
 <Alloy>
-	<ScrollView id="container" showVerticalScrollIndicator="true">
-	  <View id="header">
-	    <ImageView id="backbutton" backgroundColor="A0D4A4" onClick="close" />
-      <ImageView id="parkimage" backgroundColor="CFF09E" />
-    </View>
-    <View id="menu" backgroundColor="green">
-        <ImageView id="addresslink" backgroundColor="A0D4A4" />
-        <ImageView id="contactlink" backgroundColor="A0D4A4" />
-        <ImageView id="dininglink" backgroundColor="A0D4A4" />
-        <ImageView id="timeslink" backgroundColor="A0D4A4" />
+  <View id="container" layout="vertical">
+    <View id="topBarContainer" layout="horizontal">
+        <View id="backButtonContainer">
+          <ImageView id="backbutton" image="images/icon-menu.png" onClick="close" />
+        </View>
+        <View id="topBarContentContainer" layout="vertical">
+          <Label id="topBarTitle">PARK INFO</Label>
+          <Label id="topBarParkTitle">GRONDRE HOLIDAY PARK</Label>
+        </View>
       </View>
-    <View id="content">
-      <Label id="title">Grondre Holiday Park</Label>
-      <Label id="intro">Grondre is our premier touring park; situated within the picturesque grounds of an 18th century country manor house, it has real character. Set away from busy roads and noisy towns, Gronde is well suited to families and couples who are looking to escape from it all.</Label>
-      <View id="parkdetails">
-        <Label id="addresstitle">PARK ADDRESS</Label>
-        <Label id="address">Grondre Vale,\nClunderwen,\nSA66 7HD,\nUnited Kingdom</Label>
-        <Label id="contacttitle">POINTS OF CONTACTS</Label>
-        <Label id="daytime">Reception Daytime</Label>
-        <Label id="evening">Reception Evening</Label>
+    <ScrollView id="scrollContainer" showVerticalScrollIndicator="true" layout="vertical">
+      <View id="parkImageContainer">
+        <ImageView id="parkimage" backgroundColor="CFF09E" />
       </View>
-    </View>
-	</ScrollView>
+      <View id="bottomContainer" layout="horizontal">
+        <View id="contentSection" layout="vertical">
+          <View id="introContentHolder" layout="vertical">
+            <View id="introContentTitleHolder">
+              <Label id="introContentTitle">Grondre Holiday Park</Label>
+            </View>
+            <View id="introContentTextHolder">
+              <Label id="introContentText">Grondre is out premier touring park; situated within the picturesque grounds of an 18th century country manor house, it has real character. Set away from busy roads and noisy towns, Grondre is well suited to families and couples who are looking to escape from it all.</Label>
+            </View>
+          </View>
+          <View id="parkAddressContentHolder" layout="vertical">
+            <View id="parkAddressContentTitleHolder">
+              <Label id="parkAddressContentTitle">PARK ADDRESS</Label>
+            </View>
+            <View id="parkAddressContentTextHolder">
+              <Label id="parkAddressContentText">Grondre Vale,\nClunderwen\nSA66 7HD,\nUnited Kingdom</Label>
+            </View>
+          </View>
+          <View id="parkContactContentHolder" layout="vertical">
+            <View id="parkContactContentTitleHolder">
+              <Label id="parkContactContentTitle">POINTS OF CONTACT</Label>
+            </View>
+            <View id="parkContactContentTextHolder">
+              <Label id="parkContactContentText">0161 000000</Label>
+            </View>
+          </View>
+        </View>
+      </View>
+    </ScrollView>
+  </View>
 </Alloy>

@@ -8,10 +8,14 @@ var Application = {
       });
     mainWindow.add(mainView);
     
-    var view = this.loadController('home');
-    this.showContent(view.getView());
+    // var view = this.loadController('home');
+    // this.showContent(view.getView());
+    
     // var loginView = this.loadController('login');
     // this.showContent(loginView.getView());
+    
+    var workingView = this.loadController('info');
+    this.showContent(workingView.getView());
     
     mainWindow.open();
   }),

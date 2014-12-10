@@ -5,85 +5,182 @@
   backgroundImage: "images/bg.png"
 }
 
-"#header": {
-  height: "40%",
-  width: "100%",
-  top: 0
-}
-
-  "#backbutton": {
-    height: "40",
-    width: "40",
-    left: "20",
-    top: "20dp",
-    zIndex: "2"
+  "#scrollContainer": {
+    
   }
 
-  "#parkimage": {
-    height: "100%",
+  "#parkImageContainer": {
+    height: "32%",
     width: "100%",
-    zIndex: "1"
-  }
-
-"#menu": {
-  right: 10,
-  bottom: 10,
-  width: 60,
-  height: "33%"
-}
-  
-"#content": {
-  top: "45%",
-  color: "white",
-  height: "auto"
-}
-
-  "#title": {
-    top: 0,
-    left: 15,
-    color: "white"
   }
   
-  "#intro": {
-    top: 40,
-    width: "70%",
-    left: 15,
-    color: "white"
-  }
-  
-  "#parkdetails": {
-    top: 235,
-    height: "auto",
-    width: "100%",
-    left: 0,
-  }
-  
-    "#addresstitle": {
-      left: 15,
-      top: 0,
-      color: "white"
+    "#parkimage": {
+      height: "100%",
+      width: Titanium.UI.FILL,
+      top: 0
     }
 
-    "#address": {
-      top: 30,
-      left: 15,
-      color: "white"
+  "#topBarContainer": {
+    height: "11%",
+    width: "100%",
+    opacity: 0.8,
+    backgroundColor: '628640',
+    zIndex: 2,
+    top: 0
+  }
+  
+    "#backButtonContainer": {
+      width: "22dp",
+      height: "22dp",
+      left: "24dp",
+      top: "40%"
     }
     
-    "#contacttitle": {
-      left: 15,
-      top: 230,
-      color: "white"
+    "#backbutton": {
+      width: Titanium.UI.FILL,
+      height: Titanium.UI.FILL,
+      opacity: 1,
     }
+    
+  "#topBarContentContainer": {
+  }
+    
+    "#topBarTitle": {
+      color: "#fff",
+      top: "30%",
+      font: {
+        fontSize: "14sp",
+        fontFamily: 'AktivGrotesk-Bold',
+      }
+    }
+    
+    "#topBarParkTitle": {
+      color: "#fff",
+      top: "5%",
+      font: {
+        fontSize: "10sp",
+        fontFamily: 'AktivGrotesk-Light',
+      }
+    }
+    
+"#bottomContainer": {
+  
+}
 
-    "#daytime": {
-      top: 250,
-      left: 15,
-      color: "white"
+  "#contentSection": {
+    width: "75%",
+    height: Titanium.UI.SIZE,
+    left: 0,
+    top: 0
+  }
+  
+    "#introContentHolder": {
+      height: Titanium.UI.SIZE,
+      top: 0,
+      left: 0
     }
-
-    "#evening": {
-      top: 270,
-      left: 15,
-      color: "white"
+  
+    "#introContentTitleHolder": {
+      height: Titanium.UI.SIZE,
+      top: "44dp",
+      left: "20dp"
     }
+  
+    "#introContentTitle": {
+      color: "#fff",
+      font: {
+        fontSize: "24sp",
+        fontFamily: 'AktivGrotesk-Light'
+      },
+      bottom: "18dp",
+      left: 0
+    }
+    
+    "#introContentTextHolder": {
+      height: Titanium.UI.SIZE,
+      top: 0,
+      left: "20dp"
+    }
+    
+    "#introContentText": {
+      color: "#fff",
+      font: {
+        fontSize: "18sp",
+        fontFamily: 'AktivGrotesk-Light'
+      },
+      top: 0,
+      left: 0
+    }
+    
+    "#parkAddressContentHolder": {
+      height: Ti.UI.SIZE,
+    }
+  
+    "#parkAddressContentTitleHolder": {
+      height: "13%",
+      left: "20dp"
+    }
+  
+    "#parkAddressContentTitle": {
+      color: "#fff",
+      font: {
+        fontSize: "12sp",
+        fontFamily: 'AktivGrotesk-Bold'
+      },
+      left: 0
+    }
+    
+    "#parkAddressContentTextHolder": {
+      height: Titanium.UI.SIZE,
+      top: 0,
+      left: "20dp",
+    }
+    
+    "#parkAddressContentText": {
+      color: "#fff",
+      font: {
+        fontSize: "18sp",
+        fontFamily: 'AktivGrotesk-Light'
+      },
+      top: 0,
+      left: 0
+    }
+    
+    "#parkContactContentHolder": {
+      
+    }
+  
+    "#parkContactContentTitleHolder": {
+      height: "13%",
+      left: "20dp"
+    }
+  
+    "#parkContactContentTitle": {
+      color: "#fff",
+      font: {
+        fontSize: "12sp",
+        fontFamily: 'AktivGrotesk-Bold'
+      },
+      left: 0
+    }
+    
+    "#parkContactContentTextHolder": {
+      height: "80%",
+      top: 0,
+      left: "20dp",
+    }
+    
+    "#parkContactContentText": {
+      color: "#fff",
+      font: {
+        fontSize: "18sp",
+        fontFamily: 'AktivGrotesk-Light'
+      },
+      top: 0,
+      left: 0
+    }
+  
+  // "#menuSection": {
+    // width: "24%",
+    // height: Ti.UI.FILL
+  // }

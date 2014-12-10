@@ -5,16 +5,103 @@
   backgroundImage: "images/bg.png"
 }
 
-"#header": {
-  height: "20%",
-  width: "100%",
-  top: 0
-}
+  "#scrollContainer": {
+    
+  }
 
-  "#backbutton": {
-    height: "40",
-    width: "40",
-    left: "20",
-    top: "20",
-    zIndex: "2"
+  "#topBarContainer": {
+    height: "11%",
+    width: "100%",
+    opacity: 0.8,
+    backgroundColor: '628640',
+    zIndex: 2,
+    top: 0
+  }
+  
+    "#backButtonContainer": {
+      width: "22dp",
+      height: "22dp",
+      left: "24dp",
+      top: "40%"
+    }
+    
+    "#backbutton": {
+      width: Titanium.UI.FILL,
+      height: Titanium.UI.FILL,
+      opacity: 1,
+    }
+    
+  "#topBarContentContainer": {
+  }
+    
+    "#topBarTitle": {
+      color: "#fff",
+      top: "30%",
+      font: {
+        fontSize: "14sp",
+        fontFamily: 'AktivGrotesk-Bold',
+      }
+    }
+    
+    "#topBarParkTitle": {
+      color: "#fff",
+      top: "5%",
+      font: {
+        fontSize: "10sp",
+        fontFamily: 'AktivGrotesk-Regular',
+      }
+    }
+    
+".eventContainer": {
+  height: "100dp",
+  width: "100%"
+}
+  
+  ".timeContainer": {
+    height: "60dp",
+    width: "60dp",
+    left: "20dp",
+    top: '20dp'
+  }
+  
+  ".eventDetailsContainer": {
+    width: "60%",
+    height: "60dp",
+    top: "20dp",
+    left: "4dp"
+  }
+  
+    ".eventDetailsTitle": {
+      color: "#fff",
+      font: {
+        fontSize: "13sp",
+        fontFamily: 'AktivGrotesk-Bold',
+      },
+      height: "13dp",
+      left: 0
+    }
+    
+    ".eventDetailsContentHolder": {
+      top: "4dp"
+    }
+    
+    ".eventIcon": {
+      height: "30dp",
+      width: "30dp"
+    }
+    
+    ".eventName": {
+      color: "#fff",
+      font: {
+        fontSize: "15sp",
+        fontFamily: 'AktivGrotesk-Regular',
+      },
+      left: "4dp"
+    }
+  
+  ".starContainer": {
+    width: "30dp",
+    height: "30dp",
+    left: "10dp",
+    top: "30dp"
   }

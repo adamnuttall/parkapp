@@ -1,7 +1,101 @@
 <Alloy>
-  <View id="container">
-    <View id="header">
-      <ImageView id="backbutton" backgroundColor="A0D4A4" onClick="close" />
-    </View>
+  <View id="container" layout="vertical">
+    <View id="topBarContainer" layout="horizontal">
+        <View id="backButtonContainer">
+          <ImageView id="backbutton" image="images/icon-menu.png" onClick="close" />
+        </View>
+        <View id="topBarContentContainer" layout="vertical">
+          <Label id="topBarTitle">EVENTS</Label>
+          <Label id="topBarParkTitle">WHAT'S GOING ON AT GRONDRE</Label>
+        </View>
+      </View>
+    <ScrollView id="scrollContainer" showVerticalScrollIndicator="true" layout="vertical">
+      <View class="eventListContainer" layout="vertical">
+        <View class="eventContainer" layout="horizontal">
+          <View class="timeContainer" borderColor="white" borderWidth="1">
+            <ImageView class="timeImage"/>
+          </View>
+          <View class="eventDetailsContainer" layout="vertical">
+            <Label class="eventDetailsTitle">FRANKIE'S FUNHOUSE</Label>
+            <View class="eventDetailsContentHolder" layout="horizontal">
+              <ImageView class="eventIcon" backgroundColor="fff"/>
+              <Label class="eventName">Sing-a-long funtime</Label>
+            </View>
+          </View>
+          <View class="starContainer" borderColor="white" borderWidth="1">
+          </View>
+        </View>
+        <View class="eventContainer" layout="horizontal">
+          <View class="timeContainer" borderColor="white" borderWidth="1">
+            <ImageView class="timeImage"/>
+          </View>
+          <View class="eventDetailsContainer" layout="vertical">
+            <Label class="eventDetailsTitle">BOATING LAKE</Label>
+            <View class="eventDetailsContentHolder" layout="horizontal">
+              <ImageView class="eventIcon" backgroundColor="fff"/>
+              <Label class="eventName">Kayak Lessons</Label>
+            </View>
+          </View>
+          <View class="starContainer" borderColor="white" borderWidth="1">
+          </View>
+        </View>
+        <View class="eventContainer" layout="horizontal">
+          <View class="timeContainer" borderColor="white" borderWidth="1">
+            <ImageView class="timeImage"/>
+          </View>
+          <View class="eventDetailsContainer" layout="vertical">
+            <Label class="eventDetailsTitle">PLAYHOUSE</Label>
+            <View class="eventDetailsContentHolder" layout="horizontal">
+              <ImageView class="eventIcon" backgroundColor="fff"/>
+              <Label class="eventName">Face Painting</Label>
+            </View>
+          </View>
+          <View class="starContainer" borderColor="white" borderWidth="1">
+          </View>
+        </View>
+        <View class="eventContainer" layout="horizontal">
+          <View class="timeContainer" borderColor="white" borderWidth="1">
+            <ImageView class="timeImage"/>
+          </View>
+          <View class="eventDetailsContainer" layout="vertical">
+            <Label class="eventDetailsTitle">PLAYING FIELDS</Label>
+            <View class="eventDetailsContentHolder" layout="horizontal">
+              <ImageView class="eventIcon" backgroundColor="fff"/>
+              <Label class="eventName">Five-a-side football</Label>
+            </View>
+          </View>
+          <View class="starContainer" borderColor="white" borderWidth="1">
+          </View>
+        </View>
+        <View class="eventContainer" layout="horizontal">
+          <View class="timeContainer" borderColor="white" borderWidth="1">
+            <ImageView class="timeImage"/>
+          </View>
+          <View class="eventDetailsContainer" layout="vertical">
+            <Label class="eventDetailsTitle">PLAYHOUSE</Label>
+            <View class="eventDetailsContentHolder" layout="horizontal">
+              <ImageView class="eventIcon" backgroundColor="fff"/>
+              <Label class="eventName">Simon Says</Label>
+            </View>
+          </View>
+          <View class="starContainer" borderColor="white" borderWidth="1">
+          </View>
+        </View>
+        <View class="eventContainer" layout="horizontal">
+          <View class="timeContainer" borderColor="white" borderWidth="1">
+            <ImageView class="timeImage"/>
+          </View>
+          <View class="eventDetailsContainer" layout="vertical">
+            <Label class="eventDetailsTitle">THE STABLE INN CLUB</Label>
+            <View class="eventDetailsContentHolder" layout="horizontal">
+              <ImageView class="eventIcon" backgroundColor="fff"/>
+              <Label class="eventName">Pizza Party!</Label>
+            </View>
+          </View>
+          <View class="starContainer" borderColor="white" borderWidth="1">
+          </View>
+        </View>
+      </View>
+    </ScrollView>
   </View>
 </Alloy>

@@ -5,22 +5,127 @@
   backgroundImage: "images/bg.png"
 }
 
-"#header": {
-  height: "40%",
-  width: "100%",
-  top: 0
-}
-
-  "#backbutton": {
-    height: "40",
-    width: "40",
-    left: "20",
-    top: "20",
-    zIndex: "2"
+  "#scrollContainer": {
+    
   }
 
-  "#parkimage": {
-    height: "100%",
+  "#topBarContainer": {
+    height: "11%",
     width: "100%",
-    zIndex: "1"
+    opacity: 0.8,
+    backgroundColor: '628640',
+    zIndex: 2,
+    top: 0
+  }
+  
+    "#backButtonContainer": {
+      width: "22dp",
+      height: "22dp",
+      left: "24dp",
+      top: "40%"
+    }
+    
+    "#backbutton": {
+      width: Titanium.UI.FILL,
+      height: Titanium.UI.FILL,
+      opacity: 1,
+    }
+    
+  "#topBarContentContainer": {
+  }
+    
+    "#topBarTitle": {
+      color: "#fff",
+      top: "30%",
+      font: {
+        fontSize: "14sp",
+        fontFamily: 'AktivGrotesk-Bold',
+      }
+    }
+    
+    "#topBarParkTitle": {
+      color: "#fff",
+      top: "5%",
+      font: {
+        fontSize: "10sp",
+        fontFamily: 'AktivGrotesk-Regular',
+      }
+    }
+
+"#tweetListContainer": {
+  
+}
+
+  ".tweetContainer": {
+    height: "180dp",
+    width: "100%"
+  }
+  
+  ".avatar": {
+    height: "50dp",
+    width: "50dp",
+    top: "26dp",
+    left: "22dp"
+  }
+  
+  ".tweetContent": {
+    top: "26dp",
+    left: "10dp",
+    height: "80%",
+    width: "60%"
+  }
+  
+    ".titleContainer": {
+      height: "20dp"
+    }
+    
+      ".titleLabel": {
+        color: "#fff",
+        font: {
+          fontSize: "13sp",
+          fontFamily: 'AktivGrotesk-Bold',
+        }
+      }
+      
+      ".nameLabel": {
+        color: "#fff",
+        font: {
+          fontSize: "12sp",
+          fontFamily: 'AktivGrotesk-Regular',
+        }
+      }
+      
+    ".dateContainer": {
+      height: "16dp"
+    }
+    
+      ".dateLabel": {
+        color: "#fff",
+        font: {
+          fontSize: "13sp",
+          fontFamily: 'AktivGrotesk-Regular',
+        },
+        left: 0,
+        top: "2dp"
+      }
+    
+    ".tweetTextContainer": {
+      height: Titanium.UI.SIZE
+    }
+    
+      ".tweetTextLabel": {
+        color: "#fff",
+        font: {
+          fontSize: "15sp",
+          fontFamily: 'AktivGrotesk-Regular',
+        },
+        left: 0,
+        top: "6dp"
+      }
+  
+  ".actionsContainer": {
+    top: "26dp",
+    left: "20dp",
+    height: "80%",
+    width: "10%"
   }

@@ -1,8 +1,143 @@
 <Alloy>
-  <View id="container">
-    <View id="header">
-      <ImageView id="backbutton" backgroundColor="A0D4A4" onClick="close" />
-      <ImageView id="parkimage" backgroundColor="CFF09E" />
-    </View>
+  <View id="container" layout="vertical">
+    <View id="topBarContainer" layout="horizontal">
+        <View id="backButtonContainer">
+          <ImageView id="backbutton" image="images/icon-menu.png" onClick="close" />
+        </View>
+        <View id="topBarContentContainer" layout="vertical">
+          <Label id="topBarTitle">SOCIAL FEED</Label>
+          <Label id="topBarParkTitle">@VALEHOLIDAYS</Label>
+        </View>
+      </View>
+    <ScrollView id="scrollContainer" showVerticalScrollIndicator="true" layout="vertical">
+      <View id="tweetListContainer" layout="vertical">
+        <View class="tweetContainer" layout="horizontal">
+          <View class="avatar" backgroundColor="fff">
+          </View>
+          <View class="tweetContent" layout="vertical">
+            <View class="titleContainer" layout="horizontal">
+              <Label class="titleLabel">Vale Holiday Parks</Label>
+              <Label class="nameLabel">@valeholidays</Label>
+            </View>
+            <View class="dateContainer">
+              <Label class="dateLabel">13 Nov 2014</Label>
+            </View>
+            <View class="tweetTextContainer">
+              <Label class="tweetTextLabel">The Real Ale Ramble is held annually in conjunction with the 10 day Mid Wales Beer Festival, want to get involved?</Label>
+            </View>
+          </View>
+          <View class="actionsContainer" borderColor="white" borderWidth="1">
+          </View>
+        </View>
+        <View class="tweetContainer" layout="horizontal">
+          <View class="avatar" backgroundColor="fff">
+          </View>
+          <View class="tweetContent" layout="vertical">
+            <View class="titleContainer" layout="horizontal">
+              <Label class="titleLabel">Vale Holiday Parks</Label>
+              <Label class="nameLabel">@valeholidays</Label>
+            </View>
+            <View class="dateContainer">
+              <Label class="dateLabel">12 Nov 2014</Label>
+            </View>
+            <View class="tweetTextContainer">
+              <Label class="tweetTextLabel">Keen mountain biker or enjoy the odd cycle? Partial to real ale? The Real Ale Wobble will be right up your street! http://bit.ly/1xrsDXZ</Label>
+            </View>
+          </View>
+          <View class="actionsContainer" borderColor="white" borderWidth="1">
+          </View>
+        </View>
+        <View class="tweetContainer" layout="horizontal">
+          <View class="avatar" backgroundColor="fff">
+          </View>
+          <View class="tweetContent" layout="vertical">
+            <View class="titleContainer" layout="horizontal">
+              <Label class="titleLabel">Vale Holiday Parks</Label>
+              <Label class="nameLabel">@valeholidays</Label>
+            </View>
+            <View class="dateContainer">
+              <Label class="dateLabel">11 Nov 2014</Label>
+            </View>
+            <View class="tweetTextContainer">
+              <Label class="tweetTextLabel">Wales Rally GB is here again for its 15th year. If you're around Conwy between the 13th - 16th November check it out! http://bit.ly/1ypW02</Label>
+            </View>
+          </View>
+          <View class="actionsContainer" borderColor="white" borderWidth="1">
+          </View>
+        </View>
+        <View class="tweetContainer" layout="horizontal">
+          <View class="avatar" backgroundColor="fff">
+          </View>
+          <View class="tweetContent" layout="vertical">
+            <View class="titleContainer" layout="horizontal">
+              <Label class="titleLabel">Vale Holiday Parks</Label>
+              <Label class="nameLabel">@valeholidays</Label>
+            </View>
+            <View class="dateContainer">
+              <Label class="dateLabel">10 Nov 2014</Label>
+            </View>
+            <View class="tweetTextContainer">
+              <Label class="tweetTextLabel">Wales Rally GB is here again for its 15th year. If you're around Conwy between the 13th - 16th November check it out! http://bit.ly/1ypW02</Label>
+            </View>
+          </View>
+          <View class="actionsContainer" borderColor="white" borderWidth="1">
+          </View>
+        </View>
+        <View class="tweetContainer" layout="horizontal">
+          <View class="avatar" backgroundColor="fff">
+          </View>
+          <View class="tweetContent" layout="vertical">
+            <View class="titleContainer" layout="horizontal">
+              <Label class="titleLabel">Vale Holiday Parks</Label>
+              <Label class="nameLabel">@valeholidays</Label>
+            </View>
+            <View class="dateContainer">
+              <Label class="dateLabel">10 Nov 2014</Label>
+            </View>
+            <View class="tweetTextContainer">
+              <Label class="tweetTextLabel">Wales Rally GB is here again for its 15th year. If you're around Conwy between the 13th - 16th November check it out! http://bit.ly/1ypW02</Label>
+            </View>
+          </View>
+          <View class="actionsContainer" borderColor="white" borderWidth="1">
+          </View>
+        </View>
+        <View class="tweetContainer" layout="horizontal">
+          <View class="avatar" backgroundColor="fff">
+          </View>
+          <View class="tweetContent" layout="vertical">
+            <View class="titleContainer" layout="horizontal">
+              <Label class="titleLabel">Vale Holiday Parks</Label>
+              <Label class="nameLabel">@valeholidays</Label>
+            </View>
+            <View class="dateContainer">
+              <Label class="dateLabel">10 Nov 2014</Label>
+            </View>
+            <View class="tweetTextContainer">
+              <Label class="tweetTextLabel">Wales Rally GB is here again for its 15th year. If you're around Conwy between the 13th - 16th November check it out! http://bit.ly/1ypW02</Label>
+            </View>
+          </View>
+          <View class="actionsContainer" borderColor="white" borderWidth="1">
+          </View>
+        </View>
+        <View class="tweetContainer" layout="horizontal">
+          <View class="avatar" backgroundColor="fff">
+          </View>
+          <View class="tweetContent" layout="vertical">
+            <View class="titleContainer" layout="horizontal">
+              <Label class="titleLabel">Vale Holiday Parks</Label>
+              <Label class="nameLabel">@valeholidays</Label>
+            </View>
+            <View class="dateContainer">
+              <Label class="dateLabel">10 Nov 2014</Label>
+            </View>
+            <View class="tweetTextContainer">
+              <Label class="tweetTextLabel">Wales Rally GB is here again for its 15th year. If you're around Conwy between the 13th - 16th November check it out! http://bit.ly/1ypW02</Label>
+            </View>
+          </View>
+          <View class="actionsContainer" borderColor="white" borderWidth="1">
+          </View>
+        </View>
+      </View>
+    </ScrollView>
   </View>
 </Alloy>

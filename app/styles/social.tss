@@ -56,20 +56,26 @@
   
 }
 
+  ".divider": {
+    height: "1dp",
+    backgroundColor: "#C6D18E",
+    width: "100%"
+  }
+
   ".tweetContainer": {
-    height: "180dp",
+    height: "179dp",
     width: "100%"
   }
   
   ".avatar": {
-    height: "50dp",
-    width: "50dp",
-    top: "26dp",
-    left: "22dp"
+    height: "24%",
+    width: "12%",
+    top: "10%",
+    left: "6%"
   }
   
   ".tweetContent": {
-    top: "26dp",
+    top: "10%",
     left: "10dp",
     height: "80%",
     width: "60%"
@@ -124,8 +130,36 @@
       }
   
   ".actionsContainer": {
-    top: "26dp",
+    top: "10%",
     left: "20dp",
     height: "80%",
-    width: "10%"
+    width: "10%",
+    layout: "vertical"
   }
+  
+    ".twitterIconHolder": {
+      left: 0,
+      height: "10%",
+      width: "50%",
+    }
+    
+    ".topSpacer": {
+      top: "20%",
+    }
+  
+    ".twittericon": {
+      
+    }
+  
+    ".replyImage": {
+
+    }
+    
+    ".retweetImage": {
+
+    }
+
+    ".favouriteImage": {
+
+    }
+

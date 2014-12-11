@@ -1,18 +1,25 @@
 <Alloy>
-	<View id="container">
-	  <View id="header">
-      <ImageView id="parkimage" backgroundColor="CFF09E" />
+  <View id="container" layout="vertical">
+    <View id="headerContainer">
+      <ImageView id="image" image="images/signin-logo.png" />
     </View>
-    <View id="intro">
-      <Label id="welcome">Welcome to My Park from Vale Holiday Parks.</Label> 
-      <Label id="signin">To get the most out of this app, please sign in.</Label>
+    <View id="welcomeTextContainer" layout="vertical">
+      <Label id="introLabel" class="contentText">Welcome to My Park from Vale Holiday Parks.</Label>
+      <Label id="secondaryLabel" class="contentText">To get the most out of this app, please sign in.</Label>
     </View>
-    <View id="buttons">
-      <LoginButton id="fbButton" ns="Alloy.Globals.Facebook"/>
-      <ImageView id="google" onClick="clickGoogle" backgroundColor="red" />
+    <View id="loginButtonContainer" layout="vertical">
+      <View id="fbButtonContainer">
+        <LoginButton id="fbButton" ns="Alloy.Globals.Facebook"/>
+      </View>
+      <View id="googleButtonContainer" onClick="clickGoogle">
+        <ImageView id="googleButton" image="images/button-signin_google.png" />
+      </View>
     </View>
-    <View id="nav">
-      <Label onClick="clickSkip">Skip this step</Label>
+    <View id="skipStepContainer" layout="vertical" onClick="clickSkip">
+      <Label id="skipStepLabel">Skip this step</Label>
+      <View id="skipIconContainer" layout="horizontal">
+        <ImageView id="currentStepImage" class="stepImage" backgroundColor="white"/>
+      </View>
     </View>
-	</View>
+  </View>
 </Alloy>

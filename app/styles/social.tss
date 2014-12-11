@@ -93,14 +93,6 @@
         }
       }
       
-      ".nameLabel": {
-        color: "#fff",
-        font: {
-          fontSize: "12sp",
-          fontFamily: 'AktivGrotesk-Regular',
-        }
-      }
-      
     ".dateContainer": {
       height: "16dp"
     }

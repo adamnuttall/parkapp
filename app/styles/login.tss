@@ -2,63 +2,82 @@
   height: "100%",
   width: "100%",
   top: 0,
-  backgroundColor: "CFF09E"
+  backgroundImage: "images/bg.png"
 }
 
-"#header": {
-  height: "20%",
-  width: "100%",
-  top: 0
-}
-
-  "#parkimage": {
-    height: "100%",
+  "#headerContainer": {
+    height: "28%",
+    width: "100%",
+  }
+  
+    "#image": {
+      height: "70%",
+      width: "33%"
+    }
+  
+  "#welcomeTextContainer": {
+    height: "24%",
+    width: "65%"
+  }
+  
+    ".contentText": {
+      color: "#fff",
+      font: {
+        fontSize: "18sp",
+        fontFamily: 'AktivGrotesk-Regular',
+      },
+      textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+    }
+    
+    "#introLabel": {
+      top: "10dp"
+    }
+    
+    "#secondaryLabel": {
+      top: "34dp"
+    }
+    
+  "#loginButtonContainer": {
+    height: "26%",
     width: "100%"
   }
   
-"#intro": {
-  height: "20%",
-  color: "fff"
-}
-
-  "Label": {
-    width: Ti.UI.SIZE,
-    height: Ti.UI.SIZE,
-    color: "fff"
+    "#fbButtonContainer": {
+      height: "40%"
+    }
+  
+    "#fbButton": {
+      top: "28%"
+    }
+    
+    "#googleButtonContainer": {
+      height: "30%",
+      width: "100%",
+      top: "12%"
+    }
+  
+    "#googleButton": {
+      top: 0,
+      height: Ti.UI.FILL,
+      width: "80%"
+    }
+    
+  "#skipStepContainer": {
+    height: Ti.UI.FILL,
+    width: "160dp"
   }
   
-  "#welcome": {
-    top: 0,
-    height: "auto",
-    width: "70%",
-    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
-  }
+    "#skipStepLabel": {
+      color: "#fff",
+      font: {
+        fontSize: "15sp",
+        fontFamily: 'AktivGrotesk-Light',
+      },
+      top: "50%"
+    }
   
-  "signin": {
-    top: 40,
-    height: "auto",
-    width: "70%",
-    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
-  }
-  
-"#buttons": {
-  height: "20%",
-  width: "100%",
-  top: "60%"
-}
-
-  "#fbButton": {
-    top: 0
-  }
-
-  "#google": {
-    height: "45%",
-    width: "80%",
-    left: "10%",
-    top: "55%"
-  }
-  
-"#nav": {
-  bottom: "10%",
-  height: "10%"
-}
+    ".stepImage": {
+      top: "5%",
+      height: "10dp",
+      width: "10dp"
+    }

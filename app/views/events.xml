@@ -12,87 +12,98 @@
     <ScrollView id="scrollContainer" showVerticalScrollIndicator="true" layout="vertical">
       <View class="eventListContainer" layout="vertical">
         <View class="eventContainer" layout="horizontal">
-          <View class="timeContainer" borderColor="white" borderWidth="1">
-            <ImageView class="timeImage"/>
+          <View class="timeContainer">
+            <ImageView class="timeImage" image="images/date-1.png" />
           </View>
           <View class="eventDetailsContainer" layout="vertical">
             <Label class="eventDetailsTitle">FRANKIE'S FUNHOUSE</Label>
             <View class="eventDetailsContentHolder" layout="horizontal">
-              <ImageView class="eventIcon" backgroundColor="fff"/>
+              <ImageView class="eventIcon" image="images/icon-ents.png"/>
               <Label class="eventName">Sing-a-long funtime</Label>
             </View>
           </View>
-          <View class="starContainer" borderColor="white" borderWidth="1">
+          <View class="starContainer">
+            <ImageView image="images/icon-fav_inactive.png"/>
           </View>
         </View>
+        <View class="divider"/>
         <View class="eventContainer" layout="horizontal">
-          <View class="timeContainer" borderColor="white" borderWidth="1">
-            <ImageView class="timeImage"/>
+          <View class="timeContainer">
+            <ImageView class="timeImage" image="images/date-2.png"/>
           </View>
           <View class="eventDetailsContainer" layout="vertical">
             <Label class="eventDetailsTitle">BOATING LAKE</Label>
             <View class="eventDetailsContentHolder" layout="horizontal">
-              <ImageView class="eventIcon" backgroundColor="fff"/>
+              <ImageView class="eventIcon" image="images/icon-boat.png" />
               <Label class="eventName">Kayak Lessons</Label>
             </View>
           </View>
-          <View class="starContainer" borderColor="white" borderWidth="1">
+          <View class="starContainer">
+            <ImageView image="images/icon-fav_active.png"/>
           </View>
         </View>
+        <View class="divider"/>
         <View class="eventContainer" layout="horizontal">
-          <View class="timeContainer" borderColor="white" borderWidth="1">
-            <ImageView class="timeImage"/>
+          <View class="timeContainer">
+            <ImageView class="timeImage" image="images/date-3.png"/>
           </View>
           <View class="eventDetailsContainer" layout="vertical">
             <Label class="eventDetailsTitle">PLAYHOUSE</Label>
             <View class="eventDetailsContentHolder" layout="horizontal">
-              <ImageView class="eventIcon" backgroundColor="fff"/>
+              <ImageView class="eventIcon" image="images/icon-paint.png"/>
               <Label class="eventName">Face Painting</Label>
             </View>
           </View>
-          <View class="starContainer" borderColor="white" borderWidth="1">
+          <View class="starContainer">
+            <ImageView image="images/icon-fav_active.png"/>
           </View>
         </View>
+        <View class="divider"/>
         <View class="eventContainer" layout="horizontal">
-          <View class="timeContainer" borderColor="white" borderWidth="1">
-            <ImageView class="timeImage"/>
+          <View class="timeContainer">
+            <ImageView class="timeImage" image="images/date-4.png"/>
           </View>
           <View class="eventDetailsContainer" layout="vertical">
             <Label class="eventDetailsTitle">PLAYING FIELDS</Label>
             <View class="eventDetailsContentHolder" layout="horizontal">
-              <ImageView class="eventIcon" backgroundColor="fff"/>
+              <ImageView class="eventIcon" image="images/icon-football.png"/>
               <Label class="eventName">Five-a-side football</Label>
             </View>
           </View>
-          <View class="starContainer" borderColor="white" borderWidth="1">
+          <View class="starContainer">
+            <ImageView image="images/icon-fav_inactive.png"/>
           </View>
         </View>
+        <View class="divider"/>
         <View class="eventContainer" layout="horizontal">
-          <View class="timeContainer" borderColor="white" borderWidth="1">
-            <ImageView class="timeImage"/>
+          <View class="timeContainer">
+            <ImageView class="timeImage" image="images/date-5.png"/>
           </View>
           <View class="eventDetailsContainer" layout="vertical">
             <Label class="eventDetailsTitle">PLAYHOUSE</Label>
             <View class="eventDetailsContentHolder" layout="horizontal">
-              <ImageView class="eventIcon" backgroundColor="fff"/>
+              <ImageView class="eventIcon" image="images/icon-show.png"/>
               <Label class="eventName">Simon Says</Label>
             </View>
           </View>
-          <View class="starContainer" borderColor="white" borderWidth="1">
+          <View class="starContainer">
+            <ImageView image="images/icon-fav_inactive.png"/>
           </View>
         </View>
+        <View class="divider"/>
         <View class="eventContainer" layout="horizontal">
-          <View class="timeContainer" borderColor="white" borderWidth="1">
-            <ImageView class="timeImage"/>
+          <View class="timeContainer">
+            <ImageView class="timeImage" image="images/date-6.png"/>
           </View>
           <View class="eventDetailsContainer" layout="vertical">
             <Label class="eventDetailsTitle">THE STABLE INN CLUB</Label>
             <View class="eventDetailsContentHolder" layout="horizontal">
-              <ImageView class="eventIcon" backgroundColor="fff"/>
+              <ImageView class="eventIcon" image="images/icon-pizza.png"/>
               <Label class="eventName">Pizza Party!</Label>
             </View>
           </View>
-          <View class="starContainer" borderColor="white" borderWidth="1">
+          <View class="starContainer">
+            <ImageView image="images/icon-fav_inactive.png"/>
           </View>
         </View>
       </View>

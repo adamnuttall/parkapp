@@ -52,6 +52,12 @@
       }
     }
     
+".divider": {
+  height: "1dp",
+  backgroundColor: "#C6D18E",
+  width: "100%"
+}
+    
 ".eventContainer": {
   height: "100dp",
   width: "100%"
@@ -67,18 +73,18 @@
   ".eventDetailsContainer": {
     width: "60%",
     height: "60dp",
-    top: "20dp",
+    top: "22dp",
     left: "4dp"
   }
   
     ".eventDetailsTitle": {
       color: "#fff",
       font: {
-        fontSize: "13sp",
+        fontSize: "12sp",
         fontFamily: 'AktivGrotesk-Bold',
       },
-      height: "13dp",
-      left: 0
+      height: "12dp",
+      left: "4dp"
     }
     
     ".eventDetailsContentHolder": {
@@ -86,17 +92,20 @@
     }
     
     ".eventIcon": {
-      height: "30dp",
-      width: "30dp"
+      left: "6dp",
+      top: "4dp",
+      height: "20dp",
+      width: "20dp"
     }
     
     ".eventName": {
       color: "#fff",
       font: {
-        fontSize: "15sp",
-        fontFamily: 'AktivGrotesk-Regular',
+        fontSize: "18sp",
+        fontFamily: 'AktivGrotesk-Light',
       },
-      left: "4dp"
+      left: "5dp",
+      top: "3dp"
     }
   
   ".starContainer": {

@@ -14,7 +14,7 @@ var Application = {
     // var loginView = this.loadController('login');
     // this.showContent(loginView.getView());
     
-    var workingView = this.loadController('datepicker');
+    var workingView = this.loadController('customerservice');
     this.showContent(workingView.getView());
     
     mainWindow.open();

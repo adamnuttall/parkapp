@@ -1,6 +1,24 @@
 <Alloy>
-	<View id="container">
-	  <Button id="button" onClick="clickContinue" title="Continue"
-            top="10" width="100" height="50" />
-	</View>
+  <View id="container" layout="vertical">
+    <View id="settingsContainer">
+      <ImageView id="settingsImage" image="images/icon-settings.png" />
+    </View>
+    <View id="introTextContainer">
+      <Label id="introText">So we can serve you the appropriate content please tell us which park you're staying at and when you're staying with us.</Label>
+    </View>
+    <View id="calendarContainer" borderColor="blue" borderWidth="1">
+      <View id="parkPickerContainer" borderColor="red" borderWidth="1">
+      </View>
+      <View id="datePickerContainer" layout="vertical" borderColor="black" borderWidth="1">
+        <Picker id="arrivalPicker" class="picker" type="Ti.UI.PICKER_TYPE_DATE"></Picker>
+        <Picker id="departurePicker" class="picker" type="Ti.UI.PICKER_TYPE_DATE"></Picker>
+      </View>
+    </View>
+    <!-- <View id="skipStepContainer" layout="vertical" onClick="clickSkip">
+      <Label id="skipStepLabel">Skip this step</Label>
+      <View id="skipIconContainer" layout="horizontal">
+        <ImageView id="currentStepImage" class="stepImage" backgroundColor="white"/>
+      </View>
+    </View> -->
+  </View>
 </Alloy>

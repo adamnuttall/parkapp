@@ -2,5 +2,45 @@
   height: "100%",
   width: "100%",
   top: 0,
-  backgroundColor: "CFF09E"
+  backgroundImage: "images/bg.png"
 }
+
+  "#settingsContainer": {
+    height: "10%"
+  }
+  
+    "#settingsImage": {
+      height: "40%",
+      bottom: 0
+    }
+  
+  "#introTextContainer": {
+    height: "16%",
+    width: "92%"
+  }
+  
+    "#introText": {
+      color: "#fff",
+      font: {
+        fontSize: "18sp",
+        fontFamily: 'AktivGrotesk-Light',
+      },
+      textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+    }
+  
+  "#calendarContainer": {
+    height: "50%",
+    backgroundColor: "white"
+  }
+  
+    "#parkPickerContainer": {
+      height: "49%",
+      width: "92%",
+      top: 0
+    }
+    
+    "#datePickerContainer": {
+      height: "49%",
+      width: "92%",
+      bottom: 0
+    }

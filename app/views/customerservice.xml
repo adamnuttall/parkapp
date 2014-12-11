@@ -1,8 +1,34 @@
 <Alloy>
-	<View id="container">
-	  <View id="header">
-      <ImageView id="backbutton" backgroundColor="A0D4A4" onClick="close" />
+  <View id="container" layout="vertical">
+    <View id="topBarContainer" layout="horizontal">
+        <View id="backButtonContainer">
+          <ImageView id="backbutton" image="images/icon-menu.png" onClick="close" />
+        </View>
+        <View id="topBarContentContainer" layout="vertical">
+          <Label id="topBarTitle">CUSTOMER SERVICE</Label>
+          <Label id="topBarParkTitle">HOW CAN WE HELP YOU?</Label>
+        </View>
     </View>
-    <Button id="contactus" onClick="clickContact" />
+    <View id="formContainer" layout="vertical">
+      <View class="formBlock" layout="vertical">
+        <View class="formHeaderContainer" onClick="formHeaderContainerClick" backgroundColor="black">
+          <View class="formHeaderContentContainer" layout="horizontal">
+            <Label class="formHeaderContent">1. Reason for enquiry</Label>
+          </View>
+          <View class="formHeaderImageContainer">
+            <Button class="formHeaderImage" backgroundColor="white"/>
+          </View>
+        </View>
+        <View id="reasonForEnquiryView" class="formFieldsContainer" backgroundColor="white">
+          <TableView class="formFieldsTable">
+            <TableViewSection>
+                <TableViewRow class="field" title="Leave a review"/>
+                <TableViewRow class="field" title="Ask a question"/>
+                <TableViewRow class="field" title="Report an issue"/>
+            </TableViewSection>
+          </TableView>
+        </View>
+      </View>
+    </View>
 	</View>
 </Alloy>

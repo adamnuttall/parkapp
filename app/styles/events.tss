@@ -71,7 +71,7 @@
   }
   
   ".eventDetailsContainer": {
-    width: "60%",
+    width: "55%",
     height: "60dp",
     top: "22dp",
     left: "4dp"
@@ -101,10 +101,10 @@
     ".eventName": {
       color: "#fff",
       font: {
-        fontSize: "18sp",
+        fontSize: "14sp",
         fontFamily: 'AktivGrotesk-Light',
       },
-      left: "5dp",
+      left: "8dp",
       top: "3dp"
     }
   

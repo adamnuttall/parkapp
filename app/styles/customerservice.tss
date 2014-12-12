@@ -52,13 +52,19 @@
       }
     }
     
+".formBlock": {
+  height: "60dp",
+  top: 0
+}
+    
 ".formHeaderContainer": {
-  height: "10%",
-  width: "100%"
+  height: "60dp",
+  width: "100%",
+  backgroundColor: "5A8347"
 }
 
 ".formFieldsContainer": {
-  height: "28%",
+  height: "165dp",
   width: "100%"
 }
 
@@ -71,7 +77,7 @@
   ".formHeaderContent": {
     color: "#fff",
     font: {
-      fontSize: "20sp",
+      fontSize: "16sp",
       fontFamily: 'AktivGrotesk-Regular',
     }
   }
@@ -82,21 +88,21 @@
   }
   
   ".formHeaderImage": {
-    height: "50%",
-    width: "40%",
+    height: "33%",
+    width: "33%",
     left: "15%"
   }
   
   ".formFieldsTable": {
     width: "82%",
     left: "5%",
-    top: "10%"
+    top: "4%"
   }
   
   ".field": {
     color: "black",
     font: {
-      fontSize: "16sp",
+      fontSize: "13sp",
       fontFamily: 'AktivGrotesk-Light',
     }
   }

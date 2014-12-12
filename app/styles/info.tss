@@ -33,7 +33,7 @@
       width: "22dp",
       height: "22dp",
       left: "24dp",
-      top: "40%"
+      top: "30%"
     }
     
     "#backbutton": {
@@ -43,13 +43,14 @@
     }
     
   "#topBarContentContainer": {
+    left: 0
   }
     
     "#topBarTitle": {
       color: "#fff",
-      top: "30%",
+      top: "20%",
       font: {
-        fontSize: "14sp",
+        fontSize: "12sp",
         fontFamily: 'AktivGrotesk-Bold',
       }
     }
@@ -74,6 +75,15 @@
     top: 0
   }
   
+".divider": {
+  height: "1dp",
+  backgroundColor: "#C6D18E",
+  width: "100%",
+  left: "20dp",
+  top: "5%",
+  bottom: "5%"
+}
+  
     "#introContentHolder": {
       height: Titanium.UI.SIZE,
       top: 0,
@@ -89,7 +99,7 @@
     "#introContentTitle": {
       color: "#fff",
       font: {
-        fontSize: "24sp",
+        fontSize: "20sp",
         fontFamily: 'AktivGrotesk-Light'
       },
       bottom: "18dp",
@@ -105,7 +115,7 @@
     "#introContentText": {
       color: "#fff",
       font: {
-        fontSize: "18sp",
+        fontSize: "15sp",
         fontFamily: 'AktivGrotesk-Light'
       },
       top: 0,
@@ -132,14 +142,14 @@
     
     "#parkAddressContentTextHolder": {
       height: Titanium.UI.SIZE,
-      top: 0,
-      left: "20dp",
+      left: "50dp",
+      top: "10%"
     }
     
     "#parkAddressContentText": {
       color: "#fff",
       font: {
-        fontSize: "18sp",
+        fontSize: "16sp",
         fontFamily: 'AktivGrotesk-Light'
       },
       top: 0,
@@ -166,14 +176,14 @@
     
     "#parkContactContentTextHolder": {
       height: "80%",
-      top: 0,
-      left: "20dp",
+      top: "10%",
+      left: "50dp",
     }
     
     "#parkContactContentText": {
       color: "#fff",
       font: {
-        fontSize: "18sp",
+        fontSize: "16sp",
         fontFamily: 'AktivGrotesk-Light'
       },
       top: 0,

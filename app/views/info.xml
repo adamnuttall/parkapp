@@ -23,6 +23,7 @@
               <Label id="introContentText">Grondre is out premier touring park; situated within the picturesque grounds of an 18th century country manor house, it has real character. Set away from busy roads and noisy towns, Grondre is well suited to families and couples who are looking to escape from it all.</Label>
             </View>
           </View>
+          <View class="divider"/>
           <View id="parkAddressContentHolder" layout="vertical">
             <View id="parkAddressContentTitleHolder">
               <Label id="parkAddressContentTitle">PARK ADDRESS</Label>
@@ -31,6 +32,7 @@
               <Label id="parkAddressContentText">Grondre Vale,\nClunderwen\nSA66 7HD,\nUnited Kingdom</Label>
             </View>
           </View>
+          <View class="divider"/>
           <View id="parkContactContentHolder" layout="vertical">
             <View id="parkContactContentTitleHolder">
               <Label id="parkContactContentTitle">POINTS OF CONTACT</Label>
@@ -39,6 +41,7 @@
               <Label id="parkContactContentText">0161 000000</Label>
             </View>
           </View>
+          <View class="divider"/>
         </View>
       </View>
     </ScrollView>

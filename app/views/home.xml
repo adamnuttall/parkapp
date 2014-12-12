@@ -2,7 +2,7 @@
   <View id="container">
     <View id="topContainer">
       <View id="header">
-        <ImageView id="parkimage" image="images/home-banner.png" />
+        <ImageView id="parkimage" image="images/home-banner-dark.png" />
         <View id="headerContent" layout="vertical">
           <View id="userContent" layout="horizontal">
             <ImageView id="userimage" image="images/nath.png" />
@@ -19,7 +19,7 @@
             <ImageView id="sliderIcon" image="images/icon-alert.png" />
             <Label id="parkupdatestitle">PARK UPDATES</Label>
           </View>
-          <ScrollableView showPagingControl="true">
+          <ScrollableView>
                 <View id="update1" layout="vertical">
                  <Label id="update1content">The shower block will be closed for maintenance between 3pm and 4pm this afternoon. We are sorry for the inconvenience.</Label>
                 </View>

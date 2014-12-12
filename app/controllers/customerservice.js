@@ -2,23 +2,40 @@ var application = require('application');
 
 function init() {
   $.reasonForEnquiryView.hide();
-  $.reasonForEnquiryView.setVisible(false);
-}
-
-function formHeaderContainerClick() {
-  console.log($.reasonForEnquiryView.visble);
-  if($.reasonForEnquiryView.visble) {
-    $.reasonForEnquiryView.setVisible(false);
-    $.reasonForEnquiryView.hide();
-  } else {
-    $.reasonForEnquiryView.show();
-    $.reasonForEnquiryView.setVisible(true);
-  }
+  $.blockOneClose.hide();
+  $.blockTwoClose.hide();
+  $.blockThreeClose.hide();
 }
 
 function close() {
   var homeView = application.loadController('home');
   application.showContent(homeView.getView());
+}
+
+function blockOneOpenImageClick() {
+  $.reasonForEnquiryView.show();
+  $.blockOneClose.show();
+  $.blockOneOpen.hide();
+  $.blockOneContainer.height = "215dp";
+}
+
+function blockOneCloseImageClick() {
+  $.reasonForEnquiryView.hide();
+  $.blockOneClose.hide();
+  $.blockOneOpen.show();
+  $.blockOneContainer.height = "60dp";
+}
+
+function blockTwoOpenImageClick() {
+}
+
+function blockTwoCloseImageClick() {
+}
+
+function blockThreeOpenImageClick() {
+}
+
+function blockThreeCloseImageClick() {
 }
 
 function clickContact() {

@@ -9,14 +9,15 @@
           <Label id="topBarParkTitle">HOW CAN WE HELP YOU?</Label>
         </View>
     </View>
-    <View id="formContainer" layout="vertical">
-      <View class="formBlock" layout="vertical">
-        <View class="formHeaderContainer" onClick="formHeaderContainerClick" backgroundColor="black">
+    <ScrollView id="formContainer" showVerticalScrollIndicator="true" layout="vertical">
+      <View id="blockOneContainer" class="formBlock" layout="vertical">
+        <View class="formHeaderContainer">
           <View class="formHeaderContentContainer" layout="horizontal">
             <Label class="formHeaderContent">1. Reason for enquiry</Label>
           </View>
           <View class="formHeaderImageContainer">
-            <Button class="formHeaderImage" backgroundColor="white"/>
+            <Button id="blockOneOpen" class="formHeaderImage" onClick="blockOneOpenImageClick" backgroundImage="images/select-inactive.png"/>
+            <Button id="blockOneClose" class="formHeaderImage" onClick="blockOneCloseImageClick" backgroundImage="images/select-active.png"/>
           </View>
         </View>
         <View id="reasonForEnquiryView" class="formFieldsContainer" backgroundColor="white">
@@ -29,6 +30,28 @@
           </TableView>
         </View>
       </View>
-    </View>
+      <View id="blockTwoContainer" class="formBlock" layout="vertical">
+        <View class="formHeaderContainer">
+          <View class="formHeaderContentContainer" layout="horizontal">
+            <Label class="formHeaderContent">2. Your details</Label>
+          </View>
+          <View class="formHeaderImageContainer">
+            <Button id="blockTwoOpen" class="formHeaderImage" onClick="blockTwoOpenImageClick" backgroundImage="images/select-inactive.png"/>
+            <Button id="blockTwoClose" class="formHeaderImage" onClick="blockTwoCloseImageClick" backgroundImage="images/select-active.png"/>
+          </View>
+        </View>
+      </View>
+      <View id="blockThreeContainer" class="formBlock" layout="vertical">
+        <View class="formHeaderContainer">
+          <View class="formHeaderContentContainer" layout="horizontal">
+            <Label class="formHeaderContent">3. Your message</Label>
+          </View>
+          <View class="formHeaderImageContainer">
+            <Button id="blockThreeOpen" class="formHeaderImage" onClick="blockThreeOpenImageClick" backgroundImage="images/select-inactive.png"/>
+            <Button id="blockThreeClose" class="formHeaderImage" onClick="blockThreeCloseImageClick" backgroundImage="images/select-active.png"/>
+          </View>
+        </View>
+      </View>
+    </ScrollView>
 	</View>
 </Alloy>

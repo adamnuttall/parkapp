@@ -10,7 +10,7 @@
 }
 
 "#header": {
-  height: "44%",
+  height: "45%",
   width: "100%",
   top: 0,
 }
@@ -28,27 +28,27 @@
     }
     
       "#userimage": {
-        height: "30dp",
+        height: "26dp",
         left: "20dp",
         top: "5dp",
-        width: "30dp"
+        width: "26dp"
       }
       
       "#userLabel": {
-        top: "30%",
-        left: "6dp",
+        top: "26%",
+        left: "4dp",
         color: "#fff",
         font: {
           fontFamily: 'AktivGrotesk-Bold',
           fontWeight: "Bold",
-          fontSize: "14sp",
+          fontSize: "12sp",
         }
       }
     
     "#parkContent": {
       bottom: 0,
       left: 0,
-      height: "67%",
+      height: Titanium.UI.SIZE,
       textAlign: Titanium.UI.TEXT_ALIGNMENT_LEFT
     }
   
@@ -62,7 +62,7 @@
         left: "20dp",
         bottom: "18dp",
         font: {
-          fontSize: "30sp",
+          fontSize: "26sp",
           fontFamily: 'AktivGrotesk-Light',
         }
       }
@@ -74,26 +74,25 @@
   "#titleContainer": {
     top: 0,
     left: 0,
-    height: "58dp",
+    height: "28%",
     width: "100%"
   }
   
     "#sliderIcon": {
-      height: "18dp",
+      height: "14dp",
       left: "20dp",
-      top: "30dp",
-      width: "18dp"
+      top: "40%",
+      width: "14dp"
     }
 
   "#parkupdatestitle": {
     color: "white",
     font: {
       fontFamily: 'AktivGrotesk-Bold',
-      fontWeight: "Bold",
-      fontSize: "13sp"
+      fontSize: "11sp"
     },
     left: "6dp",
-    top: "33dp",
+    top: "40%",
   }
   
   "#update1": {
@@ -107,7 +106,7 @@
       color: "white",
       font: {
         fontFamily: "AktivGrotesk-Light",
-        fontSize: "18sp"
+        fontSize: "15sp"
       },
       left: "20dp"
     }
@@ -123,13 +122,13 @@
       color: "white",
       font: {
         fontFamily: "AktivGrotesk-Light",
-        fontSize: "18sp"
+        fontSize: "15sp"
       },
       left: "20dp"
     }
 
 "#menu": {
-  height: "26%",
+  height: "25%",
   bottom: "0"
 }
 
@@ -148,16 +147,16 @@
     }
     
       "#parkmapimage": {
-        width: "40dp",
-        height: "40dp",
-        top: "10dp"
+        width: "20%",
+        height: "30%",
+        top: "25%"
       }
       
       "#parkmaptitle": {
         color: "white",
         font: {
           fontFamily: "AktivGrotesk-Bold",
-          fontSize: "14sp"
+          fontSize: "12sp"
         },
         top: "10dp"
       }
@@ -170,16 +169,16 @@
     }
     
       "#customerserviceimage": {
-        width: "40dp",
-        height: "30dp",
-        top: "20dp"
+        width: "20%",
+        height: "30%",
+        top: "25%"
       }
       
       "#customerservicetitle": {
         color: "white",
         font: {
           fontFamily: "AktivGrotesk-Bold",
-          fontSize: "14sp"
+          fontSize: "12sp"
         },
         top: "10dp"
       }
@@ -198,8 +197,8 @@
     }
     
       "#infoimage": {
-        width: "30dp",
-        height: "30dp",
+        width: "30%",
+        height: "30%",
         top: "14dp"
       }
       
@@ -207,7 +206,7 @@
         color: "white",
         font: {
           fontFamily: "AktivGrotesk-Bold",
-          fontSize: "11sp"
+          fontSize: "9sp"
         },
         top: "6dp"
       }
@@ -220,8 +219,8 @@
     }
     
       "#socialimage": {
-        width: "30dp",
-        height: "30dp",
+        width: "30%",
+        height: "30%",
         top: "14dp"
       }
       
@@ -229,7 +228,7 @@
         color: "white",
         font: {
           fontFamily: "AktivGrotesk-Bold",
-          fontSize: "11sp"
+          fontSize: "9sp"
         },
         top: "6dp"
       }
@@ -242,8 +241,8 @@
     }
     
       "#eventsimage": {
-        width: "30dp",
-        height: "30dp",
+        width: "30%",
+        height: "30%",
         top: "14dp"
       }
       
@@ -251,7 +250,7 @@
         color: "white",
         font: {
           fontFamily: "AktivGrotesk-Bold",
-          fontSize: "11sp"
+          fontSize: "9sp"
         },
         top: "6dp"
       }
@@ -264,8 +263,8 @@
     }
     
       "#offersimage": {
-        width: "40dp",
-        height: "30dp",
+        width: "30%",
+        height: "30%",
         top: "14dp"
       }
       
@@ -273,7 +272,7 @@
         color: "white",
         font: {
           fontFamily: "AktivGrotesk-Bold",
-          fontSize: "11sp"
+          fontSize: "9sp"
         },
         top: "6dp"
       }

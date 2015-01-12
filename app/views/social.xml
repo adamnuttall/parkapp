@@ -1,8 +1,8 @@
 <Alloy>
   <View id="container" layout="vertical">
-    <View id="topBarContainer" layout="horizontal">
+    <View id="topBarContainer" layout="horizontal" onClick="close">
         <View id="backButtonContainer">
-          <ImageView id="backbutton" image="images/icon-menu.png" onClick="close" />
+          <ImageView id="backbutton" image="images/icon-menu.png" />
         </View>
         <View id="topBarContentContainer" layout="vertical">
           <Label id="topBarTitle">SOCIAL FEED</Label>

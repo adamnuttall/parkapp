@@ -1,4 +1,11 @@
-"#container": {
+"#firstContainer": {
+  height: "100%",
+  width: "100%",
+  top: 0,
+  backgroundImage: "images/bg.png"
+}
+
+"#secondContainer":{
   height: "100%",
   width: "100%",
   top: 0,
@@ -73,16 +80,8 @@
         fontSize: "15sp",
         fontFamily: 'AktivGrotesk-Light',
       },
-      top: "50%"
+      top: "80%"
     }
-  
-    ".stepImage": {
-      top: "5%",
-      height: "10dp",
-      width: "10dp"
-    }
-
-
 
 
 
@@ -109,4 +108,64 @@
       fontFamily: 'AktivGrotesk-Light',
     },
     textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
+  }
+  
+"#selectionContainer": {
+  backgroundColor: "white",
+  height: "60%"
+}
+
+"#parkContainer": {
+  width: "80%",
+  height: "40dp",
+  top: "20dp"
+}
+
+  "#chooseParkSelectionImageContainer": {
+    width: "10%"
+  }
+
+"#datesContainer": {
+  height: "40dp",
+  width: "80%"
+}
+  
+  "#arrivalDateContainer": {
+    width: "50%"
+  }
+    
+    "#arrivalDateLabelContainer": {
+      width: "80%"
+    }
+    
+    "#arrivalDateSelectionImageContainer": {
+      width: "20%"
+    }
+  
+  "#departureDateContainer": {
+    width: "50%"
+  }
+  
+    "#departureDateLabelContainer": {
+      width: "80%"
+    }
+    
+    "#departureDateSelectionImageContainer": {
+      width: "20%"
+    }
+
+"#chooseParkContainer": {
+  width: "80%",
+  top: 0,
+  left: 0
+}
+
+  ".formFont": {
+    color: "#121212",
+    font: {
+      fontSize: "12sp",
+      fontFamily: 'AktivGrotesk-Light',
+    },
+    left: "4dp",
+    top: "4dp"
   }

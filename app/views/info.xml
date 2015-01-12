@@ -1,8 +1,8 @@
 <Alloy>
-  <View id="container" layout="vertical">
-    <View id="topBarContainer" layout="horizontal">
+  <View id="container">
+    <View id="topBarContainer" layout="horizontal" onClick="close">
         <View id="backButtonContainer">
-          <ImageView id="backbutton" image="images/icon-menu.png" onClick="close" />
+          <ImageView id="backbutton" image="images/icon-menu.png" />
         </View>
         <View id="topBarContentContainer" layout="vertical">
           <Label id="topBarTitle">PARK INFO</Label>
@@ -11,7 +11,7 @@
       </View>
     <ScrollView id="scrollContainer" showVerticalScrollIndicator="true" layout="vertical">
       <View id="parkImageContainer">
-        <ImageView id="parkimage" backgroundColor="CFF09E" />
+        <ImageView id="parkimage" image="images/grondre.jpg" />
       </View>
       <View id="bottomContainer" layout="horizontal">
         <View id="contentSection" layout="vertical">
@@ -20,30 +20,47 @@
               <Label id="introContentTitle">Grondre Holiday Park</Label>
             </View>
             <View id="introContentTextHolder">
-              <Label id="introContentText">Grondre is out premier touring park; situated within the picturesque grounds of an 18th century country manor house, it has real character. Set away from busy roads and noisy towns, Grondre is well suited to families and couples who are looking to escape from it all.</Label>
+              <Label id="introContentText">Grondre is our premier touring park; situated within the picturesque grounds of an 18th century country manor house, it has real character. Set away from busy roads and noisy towns, Grondre is well suited to families and couples who are looking to escape from it all.</Label>
             </View>
           </View>
-          <View class="divider"/>
+          <View class="divider"></View>
           <View id="parkAddressContentHolder" layout="vertical">
-            <View id="parkAddressContentTitleHolder">
-              <Label id="parkAddressContentTitle">PARK ADDRESS</Label>
+            <View id="parkAddressContentTitleHolder" layout="horizontal">
+              <ImageView id="parkAddressImage" image="images/icon-address.png" />
+              <Label id="parkAddressContentTitle">Park Address</Label>
             </View>
             <View id="parkAddressContentTextHolder">
-              <Label id="parkAddressContentText">Grondre Vale,\nClunderwen\nSA66 7HD,\nUnited Kingdom</Label>
+              <Label id="parkAddressContentText" onClick="directionClick">Grondre Vale,\nClunderwen\nSA66 7HD</Label>
             </View>
           </View>
-          <View class="divider"/>
+          <View class="divider"></View>
           <View id="parkContactContentHolder" layout="vertical">
-            <View id="parkContactContentTitleHolder">
-              <Label id="parkContactContentTitle">POINTS OF CONTACT</Label>
+            <View id="parkContactContentTitleHolder" layout="horizontal">
+              <ImageView id="contactImage" image="images/icon-call.png" />
+              <Label id="parkContactContentTitle">Points of Contact</Label>
             </View>
-            <View id="parkContactContentTextHolder">
-              <Label id="parkContactContentText">0161 000000</Label>
+            <View id="parkContactContentTextHolder" layout="horizontal">
+              <Label id="parkContactContentText" onClick="callClick">Reception Daytime\n0161 000 000</Label>
             </View>
           </View>
-          <View class="divider"/>
+          <View class="divider"></View>
+          <View id="diningContentHolder" layout="vertical">
+            <View id="diningContentTitleHolder" layout="horizontal">
+              <ImageView id="diningImage" image="images/icon-food.png" />
+              <Label id="diningContentTitle">Dining & Drinking</Label>
+            </View>
+            <View id="diningContentTextHolder">
+              <Label id="diningContentText">Some information about dining and drinking. Where to dine and where to drink at Grondre. All the information goes here.</Label>
+            </View>
+          </View>
         </View>
       </View>
     </ScrollView>
+    <View id="menu" layout="vertical">
+      <ImageView class="menuIcon" id="initial" image="images/icon-more.png"/>
+      <ImageView class="menuIcon" id="address" image="images/icon-address.png"/>
+      <ImageView class="menuIcon" id="phone" image="images/icon-call.png"/>
+      <ImageView class="menuIcon" id="dining" image="images/icon-food.png"/>
+    </View>
   </View>
 </Alloy>

@@ -20,12 +20,12 @@
             <Label id="parkupdatestitle">PARK UPDATES</Label>
           </View>
           <ScrollableView>
-                <View id="update1" layout="vertical">
-                 <Label id="update1content">The shower block will be closed for maintenance between 3pm and 4pm this afternoon. We are sorry for the inconvenience.</Label>
-                </View>
-                <View id="update2" layout="vertical">
-                 <Label id="update2content">This afternoon's mountain bike ride will leave reception at 3pm.</Label>
-                 </View>
+            <View id="update1" layout="vertical">
+             <Label id="update1content">The shower block will be closed for maintenance between 3pm and 4pm this afternoon. We are sorry for the inconvenience.</Label>
+            </View>
+            <View id="update2" layout="vertical">
+             <Label id="update2content">This afternoon's mountain bike ride will leave reception at 3pm.</Label>
+             </View>
             </ScrollableView>
           </View>
       </View>

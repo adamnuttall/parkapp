@@ -6,19 +6,32 @@
     <View id="introTextContainer">
       <Label id="introText">So we can serve you the appropriate content please tell us which park you're staying at and when you're staying with us.</Label>
     </View>
-    <View id="calendarContainer" borderColor="blue" borderWidth="1">
-      <View id="parkPickerContainer" borderColor="red" borderWidth="1">
+    <View id="detailsContainer" layout="vertical">
+      <View id="parkPickerContainer" layout="horizontal">
+        <Label id="parkLabel">Choose Park</Label>
+        <ImageView class="downArrow" image="images/select-inactive.png" />
       </View>
-      <View id="datePickerContainer" layout="vertical" borderColor="black" borderWidth="1">
-        <Picker id="arrivalPicker" class="picker" type="Ti.UI.PICKER_TYPE_DATE"></Picker>
-        <Picker id="departurePicker" class="picker" type="Ti.UI.PICKER_TYPE_DATE"></Picker>
+      <View id="arrivalContainer" layout="horizontal">
+        <Label id="arrivalLabel">Arrival Date</Label>
+        <ImageView class="downArrow" image="images/select-inactive.png" />
       </View>
+      <View id="departureContainer" layout="horizontal">
+        <Label id="departureLabel">Departure Date</Label>
+        <ImageView class="downArrow" image="images/select-inactive.png" />
+      </View>
+      <View id="nameContainer" layout="horizontal">
+        <Label id="nameLabel">Your Name</Label>
+        <TextField class="field" id="nameField"></TextField>
+      </View>
+      <View id="emailContainer" layout="horizontal">
+        <Label id="emailLabel">Email Address</Label>
+        <TextField class="field" id="emailField"></TextField>
+      </View>
+      <View id="phoneContainer" layout="horizontal">
+        <Label id="phoneLabel">Phone Number</Label>
+        <TextField class="field" id="phoneField"></TextField>
+      </View>
+      <ImageView id="contactUsButton" onClick="contactUsClick" image="images/button-contact.png" />
     </View>
-    <!-- <View id="skipStepContainer" layout="vertical" onClick="clickSkip">
-      <Label id="skipStepLabel">Skip this step</Label>
-      <View id="skipIconContainer" layout="horizontal">
-        <ImageView id="currentStepImage" class="stepImage" backgroundColor="white"/>
-      </View>
-    </View> -->
   </View>
 </Alloy>

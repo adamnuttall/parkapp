@@ -1,8 +1,8 @@
 <Alloy>
   <View id="container" layout="vertical">
-    <View id="topBarContainer" layout="horizontal">
+    <View id="topBarContainer" layout="horizontal" onClick="close">
         <View id="backButtonContainer">
-          <ImageView id="backbutton" image="images/icon-menu.png" onClick="close" />
+          <ImageView id="backbutton" image="images/icon-menu.png" />
         </View>
         <View id="topBarContentContainer" layout="vertical">
           <Label id="topBarTitle">CUSTOMER SERVICE</Label>
@@ -40,6 +40,14 @@
             <Button id="blockTwoClose" class="formHeaderImage" onClick="blockTwoCloseImageClick" backgroundImage="images/select-active.png"/>
           </View>
         </View>
+        <View id="yourDetailsView" class="formFieldsContainer" backgroundColor="white" layout="vertical">
+            <View class='row' layout="horizontal">
+              <Label class="rowLabel field" id="nameLabel">Nathan Beck</Label>
+            </View>
+            <View class='row' layout="horizontal">
+              <Label class="rowLabel field" id="mobileLabel">Your phone number (optional)</Label>
+            </View>
+        </View>
       </View>
       <View id="blockThreeContainer" class="formBlock" layout="vertical">
         <View class="formHeaderContainer">
@@ -51,7 +59,29 @@
             <Button id="blockThreeClose" class="formHeaderImage" onClick="blockThreeCloseImageClick" backgroundImage="images/select-active.png"/>
           </View>
         </View>
+        <View id="yourMessageView" layout="vertical" class="formFieldsContainer" backgroundColor="white">
+          <View id="blockThreeReviewContainer" layout="horizontal">
+            <View id="blockThreeRowOneContainer" layout="horizontal">
+              <View id="blockThreeRowOneLabelContainer" layout="horizontal">
+                <Label id="yourRatingLabel" class="field">Rating</Label>
+              </View>
+              <View id="blockThreeRowOneRatingContainer" layout="horizontal">
+                <ImageView id="ratingImageView" backgroundColor="blue" />
+              </View>
+            </View>
+            <View id="blockThreeRowTwoContainer" layout="horizontal">
+              <TextArea id="yourReviewTextArea" value="Your Review" onFocus="yourReviewFocus">
+                Your Review
+              </TextArea>
+            </View>
+            <View id="blockThreeRowThreeContainer" layout="horizontal">
+              <ImageView id="tickImageView" backgroundColor="green"/>
+              <Label id="confirmationLabel">Are you happy for us to pass on your review to websites like Tripadvisor etc?</Label>
+            </View>
+          </View>
+        </View>
       </View>
     </ScrollView>
+    <ImageView id="contactUsButton" onClick="contactUsClick" image="images/button-contact.png" />
 	</View>
 </Alloy>

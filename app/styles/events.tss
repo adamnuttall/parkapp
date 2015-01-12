@@ -57,6 +57,71 @@
   backgroundColor: "#C6D18E",
   width: "100%"
 }
+
+".narrowDivider": {
+  height: "1dp",
+  backgroundColor: "#C6D18E",
+  right: "20dp",
+  left: "20dp"
+}
+
+".expandedContainer": {
+  height: "260dp"
+}
+
+".expandedInfo": {
+  height: "160dp"
+}
+
+".introText": {
+  height: "80dp",
+  left: "20dp",
+  right: "20dp"
+}
+
+".mainColumn": {
+  width: "40%",
+  left: "20dp"
+}
+
+".secondaryColumn": {
+  width: "40%",
+  left: "20dp"
+}
+
+".mainColumnLabel": {
+  color: "#fff",
+  font: {
+    fontSize: "10sp",
+    fontFamily: 'AktivGrotesk-Bold',
+  },
+  top: "10dp",
+  left: 0
+  // height: "12dp",
+  // left: "4dp"
+}
+
+".secondaryColumnLabel": {
+  color: "#fff",
+  font: {
+    fontSize: "10sp",
+    fontFamily: 'AktivGrotesk-Bold',
+  },
+  top: "10dp",
+  left: 0
+  // height: "12dp",
+  // left: "4dp"
+}
+
+".introTextLabel": {
+  color: "#fff",
+  font: {
+    fontSize: "12sp",
+    fontFamily: 'AktivGrotesk-Regular',
+  },
+  // height: "12dp",
+  // left: "4dp"
+}
     
 ".eventContainer": {
   height: "100dp",

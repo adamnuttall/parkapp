@@ -51,34 +51,3 @@
         fontFamily: 'AktivGrotesk-Regular',
       }
     }
-    
-".divider": {
-  height: "1dp",
-  backgroundColor: "#C6D18E",
-  width: "100%"
-}
-    
-".offerContainer": {
-  height: "100dp",
-  width: "100%"
-}
-
-".offerTitle": {
-  color: "#fff",
-  top: "20dp",
-  left: "20dp",
-  font: {
-    fontSize: "18sp",
-    fontFamily: 'AktivGrotesk-Bold',
-  }
-}
-
-".offerDetail": {
-  color: "#fff",
-  top: "10dp",
-  left: "20dp",
-  font: {
-    fontSize: "12sp",
-    fontFamily: 'AktivGrotesk-Regular',
-  }
-}

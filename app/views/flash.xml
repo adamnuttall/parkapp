@@ -1,0 +1,62 @@
+<Alloy>
+  <ScrollableView id="scrollContainer" showPagingControl="true">
+    <View id="firstContainer" layout="vertical">
+      <View id="headerContainer">
+        <ImageView id="image" image="images/signin-logo.png" />
+      </View>
+      <View id="welcomeTextContainer" layout="vertical">
+        <Label id="introLabel" class="contentText">Welcome to My Park from Vale Holiday Parks.</Label>
+        <Label id="secondaryLabel" class="contentText">To get the most out of this app, please sign in.</Label>
+      </View>
+      <View id="loginButtonContainer" layout="vertical">
+        <View id="fbButtonContainer">
+          <LoginButton id="fbButton" ns="Alloy.Globals.Facebook"/>
+        </View>
+        <View id="googleButtonContainer" onClick="clickGoogle">
+          <ImageView id="googleButton" image="images/button-signin_google.png" />
+        </View>
+      </View>
+      <View id="skipStepContainer" layout="vertical" onClick="clickSkip">
+        <Label id="skipStepLabel">Skip this step</Label>
+      </View>
+    </View>
+    <View id="secondContainer" layout="vertical">
+      <View id="settingsContainer">
+        <ImageView id="settingsImage" image="images/icon-settings.png" />
+      </View>
+      <View id="introTextContainer">
+        <Label id="introText">So we can serve you the appropriate content please tell us which park you're staying at and when you're staying with us.</Label>
+      </View>
+      <View id="selectionContainer" layout="vertical" backgroundColor="white">
+        <View id="parkContainer" layout="horizontal">
+          <View id="chooseParkContainer" layout="horizontal">
+            <Label class="formFont" id="chooseParkLabel">Choose park</Label>
+          </View>
+          <View id="chooseParkSelectionImageContainer" layout="horizontal">
+            <ImageView image="images/select-inactive.png" />
+          </View>
+        </View>
+        <View id="datesContainer" layout="horizontal">
+          <View id="arrivalDateContainer" layout="horizontal">
+            <View id="arrivalDateLabelContainer" layout="horizontal">
+              <Label class="formFont" id="arrivalLabel">Arrival</Label>
+            </View>
+            <View id="arrivalDateSelectionImageContainer" layout="horizontal">
+              <ImageView image="images/select-inactive.png"/>
+            </View>
+          </View>
+          <View id="departureDateContainer" layout="horizontal">
+            <View id="departureDateLabelContainer" layout="horizontal">
+              <Label class="formFont" id="departureLabel">Departure</Label>
+            </View>
+            <View id="departureDateSelectionImageContainer" layout="horizontal">
+              <ImageView image="images/select-inactive.png"/>
+            </View>
+          </View>
+        </View>
+        <View id="calContainer" layout="vertical">
+        </View>
+      </View>
+    </View>
+  </ScrollableView>
+</Alloy>

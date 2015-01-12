@@ -10,7 +10,7 @@
   }
   
     "#settingsImage": {
-      height: "40%",
+      height: "33%",
       bottom: 0
     }
   
@@ -22,25 +22,121 @@
     "#introText": {
       color: "#fff",
       font: {
-        fontSize: "18sp",
+        fontSize: "14sp",
         fontFamily: 'AktivGrotesk-Light',
       },
       textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER
     }
   
-  "#calendarContainer": {
+  "#detailsContainer": {
     height: "50%",
     backgroundColor: "white"
   }
   
     "#parkPickerContainer": {
-      height: "49%",
+      height: "13%",
       width: "92%",
-      top: 0
+      top: "8%",
+      left: "4%"
     }
     
-    "#datePickerContainer": {
-      height: "49%",
+    "#arrivalContainer": {
+      height: "13%",
       width: "92%",
-      bottom: 0
+      top: "1%",
+      left: "4%"
+    }
+    
+    "#departureContainer": {
+      height: "13%",
+      width: "92%",
+      top: "1%",
+      left: "4%"
+    }
+    
+    "#nameContainer": {
+      height: "13%",
+      width: "92%",
+      top: "1%",
+      left: "4%"
+    }
+    
+    "#emailContainer": {
+      height: "13%",
+      width: "92%",
+      top: "1%",
+      left: "4%"
+    }
+    
+    "#phoneContainer": {
+      height: "13%",
+      width: "92%",
+      top: "1%",
+      left: "4%"
+    }
+    
+    "#parkLabel": {
+      width: "90%",
+      font: {
+        fontSize: "14sp",
+        fontFamily: 'AktivGrotesk-Light',
+      },
+    }
+    
+    "#arrivalLabel": {
+      width: "90%",
+      font: {
+        fontSize: "14sp",
+        fontFamily: 'AktivGrotesk-Light',
+      },
+    }
+    
+    "#departureLabel": {
+      width: "90%",
+      font: {
+        fontSize: "14sp",
+        fontFamily: 'AktivGrotesk-Light',
+      },
+    }
+    
+    "#nameLabel": {
+      width: "40%",
+      font: {
+        fontSize: "14sp",
+        fontFamily: 'AktivGrotesk-Light',
+      },
+    }
+    
+    "#emailLabel": {
+      width: "40%",
+      font: {
+        fontSize: "14sp",
+        fontFamily: 'AktivGrotesk-Light',
+      },
+    }
+    
+    "#phoneLabel": {
+      width: "40%",
+      font: {
+        fontSize: "14sp",
+        fontFamily: 'AktivGrotesk-Light',
+      },
+    }
+    
+    ".downArrow": {
+      height: "26dp",
+      width: "26dp",
+      right: 0
+    }
+    
+    ".field": {
+      width: "58%",
+      left: "1%",
+      height: "30dp",
+      borderColor: "dedede"
+    }
+    
+    "#contactUsButton": {
+      height: "30dp",
+      width: "70%"
     }

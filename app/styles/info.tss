@@ -6,8 +6,62 @@
 }
 
   "#scrollContainer": {
-    
+    zIndex: 1
   }
+  
+  "#menu": {
+    width: "50dp",
+    height: "160dp",
+    bottom: 0,
+    right: 0,
+    zIndex: 100
+  }
+  
+    ".menuIcon": {
+      height: "30dp",
+      width: "30dp",
+      top: "10dp",
+    }
+    
+    "#parkAddressImage": {
+      height: "20dp",
+      width: "20dp",
+    }
+    
+    "#contactImage": {
+      height: "20dp",
+      width: "20dp",
+    }
+    
+    "#diningImage": {
+      height: "20dp",
+      width: "20dp",
+    }
+    
+    "#initial": {
+      height: "6dp",
+      width: "14dp"
+    }
+    
+    "#address": {
+      height: "25dp",
+      width: "25dp",
+    }
+    
+    "#phone": {
+      height: "25dp",
+      width: "25dp",
+    }
+    
+    "#dining": {
+      height: "25dp",
+      width: "25dp",
+    }
+    
+    "#times": {
+      height: "25dp",
+      width: "25dp",
+    }
 
   "#parkImageContainer": {
     height: "32%",
@@ -69,8 +123,8 @@
 }
 
   "#contentSection": {
-    width: "75%",
-    height: Titanium.UI.SIZE,
+    width: "80%",
+    height: "1000dp",
     left: 0,
     top: 0
   }
@@ -115,7 +169,7 @@
     "#introContentText": {
       color: "#fff",
       font: {
-        fontSize: "15sp",
+        fontSize: "16sp",
         fontFamily: 'AktivGrotesk-Light'
       },
       top: 0,
@@ -123,7 +177,7 @@
     }
     
     "#parkAddressContentHolder": {
-      height: Ti.UI.SIZE,
+      height: "10%",
     }
   
     "#parkAddressContentTitleHolder": {
@@ -137,7 +191,7 @@
         fontSize: "12sp",
         fontFamily: 'AktivGrotesk-Bold'
       },
-      left: 0
+      left: "5dp"
     }
     
     "#parkAddressContentTextHolder": {
@@ -152,12 +206,12 @@
         fontSize: "16sp",
         fontFamily: 'AktivGrotesk-Light'
       },
-      top: 0,
+      top: "5dp",
       left: 0
     }
     
     "#parkContactContentHolder": {
-      
+      height: "10%",
     }
   
     "#parkContactContentTitleHolder": {
@@ -171,13 +225,15 @@
         fontSize: "12sp",
         fontFamily: 'AktivGrotesk-Bold'
       },
-      left: 0
+      left: "5dp"
     }
     
     "#parkContactContentTextHolder": {
       height: "80%",
-      top: "10%",
+      top: "20dp",
       left: "50dp",
+      borderColor: "cecece",
+      borderWidth: 1
     }
     
     "#parkContactContentText": {
@@ -186,11 +242,59 @@
         fontSize: "16sp",
         fontFamily: 'AktivGrotesk-Light'
       },
-      top: 0,
-      left: 0
+      top: "5dp",
+      left:"10dp"
+    }
+    
+    "#parkContactEveningContentTextHolder": {
+      height: "80%",
+      top: "20dp",
+      left: "50dp",
+      borderColor: "cecece",
+      borderWidth: 1
+    }
+    
+    "#parkContactEveningContentText": {
+      color: "#fff",
+      font: {
+        fontSize: "16sp",
+        fontFamily: 'AktivGrotesk-Light'
+      },
+      top: "5dp",
+      left:"10dp"
+    }
+    
+    "#diningContentHolder": {
+      height: "10%",
     }
   
-  // "#menuSection": {
-    // width: "24%",
-    // height: Ti.UI.FILL
-  // }
+    "#diningContentTitleHolder": {
+      height: "13%",
+      left: "20dp"
+    }
+  
+    "#diningContentTitle": {
+      color: "#fff",
+      font: {
+        fontSize: "12sp",
+        fontFamily: 'AktivGrotesk-Bold'
+      },
+      left: "5dp"
+    }
+    
+    "#diningContentTextHolder": {
+      top: "10%",
+      left: "50dp",
+      height: "100dp"
+    }
+    
+    "#diningContentText": {
+      color: "#fff",
+      font: {
+        fontSize: "16sp",
+        fontFamily: 'AktivGrotesk-Light'
+      },
+      top: "5dp",
+      left: 0,
+      height: "100dp"
+    }
